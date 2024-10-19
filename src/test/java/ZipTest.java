@@ -57,7 +57,7 @@ public class ZipTest {
     }
 
     @Test
-    void xlsCheckTest() throws Exception {
+    void xlsxCheckTest() throws Exception {
         try (ZipInputStream zipFile = new ZipInputStream(
                 cl.getResourceAsStream("test.zip")
         )) {
